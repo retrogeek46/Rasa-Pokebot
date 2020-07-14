@@ -1,5 +1,7 @@
 # Rasa-Unity
-This is a tutorial to show how one can integrate Rasa chatbots with Unity. Find the tutorial [here](https://medium.com/@divyangpradeep/integrating-rasa-open-source-chatbot-into-unity-part-1-the-connection-9ba582c804cd)
+This is a pokebot made using Unity and Rasa. It answers questions for a set of predefined Pokemons and supports voice input
+
+(Pokebot-Demo)[]
 
 ## Installation
 First, clone this repo using `git clone https://github.com/retrogeek46/Rasa-Unity` and checkout to v0.2.0.

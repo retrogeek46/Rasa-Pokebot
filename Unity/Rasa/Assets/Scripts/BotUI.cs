@@ -122,6 +122,7 @@ public class BotUI : MonoBehaviour {
         allMessagesHeight += messagePadding + (int)chatBubblePos.sizeDelta.y;
         chatBubblePos.anchoredPosition3D = new Vector3(horizontalPos, -allMessagesHeight, 0);
 
+        // enable scrolling by increasing content viewport size if messages exceed a limit
         if (allMessagesHeight > 340) {
             // update contentDisplayObject hieght
             RectTransform contentRect = contentDisplayObject.GetComponent<RectTransform>();
