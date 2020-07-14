@@ -1,10 +1,10 @@
 # Rasa-Unity
 This is a pokebot made using Unity and Rasa. It answers questions for a set of predefined Pokemons and supports voice input
 
-(Pokebot-Demo)[]
+![](https://github.com/retrogeek46/Rasa-Pokebot/blob/master/Resources/pokebot.gif)
 
 ## Installation
-First, clone this repo using `git clone https://github.com/retrogeek46/Rasa-Unity` and checkout to v0.2.0.
+First, clone this repo using `git clone https://github.com/retrogeek46/Rasa-Unity`
  ### Rasa
 - Change directory into Rasa/ and create a virtual environment using  
 `python -m venv venv`
@@ -24,6 +24,3 @@ Linux : `source venv/bin/activate`
 - Select the Unity project folder located in Rasa-Unity/Unity/Rasa.
 - Press play __after__ running the Rasa server.
 - Type your message and the bot should respond.
-
-## Bugs
-- Error if rasa server is not running, handle exception
